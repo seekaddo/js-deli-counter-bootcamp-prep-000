@@ -18,7 +18,7 @@ function currentLine(line) {
   }
   var sent = "The line is currently: ";
   for (let i = 0; i < line.length; i++) {
-    sent += `${i}. ${line[i]}`;
+    sent += `${i+1}. ${line[i]}`;
   }
 
   return sent;
