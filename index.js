@@ -1,7 +1,7 @@
 
 function takeANumber(arrays,person) {
   arrays.push(person);
-  return `Welcome, Ada. You are number ${arrays.indexOf(person)} in line.`;
+  return `Welcome, Ada. You are number ${arrays.indexOf(person)+1} in line.`;
 }
 
 function nowServing(list) {
@@ -22,5 +22,5 @@ function currentLine(line) {
   }
 
   return sent;
-  
+
 }
