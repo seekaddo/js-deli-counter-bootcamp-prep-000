@@ -8,7 +8,7 @@ function nowServing(list) {
   if (list.length === 0) {
     return "There is nobody waiting to be served!";
   }
-  return list.shift();
+  return `Currently serving ${list.shift()}`;
 }
 
 
